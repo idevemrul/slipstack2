@@ -1,0 +1,198 @@
+/* 
++++++++++++++++++++++++++++++++++++++
+------------ # Responsive -----------
++++++++++++++++++++++++++++++++++++++ 
+*/
+
+@media screen and (max-width: 1399px) {}
+
+@media screen and (max-width: 1199px) {
+    .about-text {
+        padding: 80px 0;
+    }
+    .about-text h1 {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 575px) {
+    .prod-b {
+        margin-top: 50px;
+    }
+    .Slipstream-Solution {
+        background: #F8F8FC;
+        padding: 2px;
+        overflow-x: hidden;
+        /* margin-top: 23px !important; */
+        padding-top: 100px;
+    }
+    .dis-revs {
+        flex-direction: column-reverse !important;
+    }
+    .fly-com {
+        position: relative;
+        top: -261px !important;
+        /* animation: top-to-bottom 5s linear infinite; */
+        left: -63px;
+        width: 95px;
+    }
+    .about-graf-info {
+        margin-top: 84px;
+        text-align: center;
+    }
+    .hero-button-in {
+        width: 60% !important;
+        margin: 0px auto !important;
+        margin-top: 20px !important;
+    }
+    .about-text {
+        padding: 20px 0;
+    }
+    .about-heading h3 {
+        font-size: 30px;
+        line-height: 1;
+    }
+    .summary-sub-text {
+        margin: 3px 0 0;
+        font-size: 0.875rem;
+        font-weight: 300;
+        text-align: center;
+    }
+    .summary-count {
+        margin: 13px 10px 0;
+        color: #1fb8ea;
+        font-family: Poppins, sans-serif;
+        font-size: 2.8125rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .summary-b {
+        margin-bottom: 50px;
+        display: flex;
+    }
+    h4,
+    .heading-4 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .facts-box {
+        width: 104%;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .section-heading h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .sec-bg-logo img {
+        width: 50px;
+    }
+    .sec-bg-logo {
+        position: absolute;
+        top: 120%;
+        left: 0;
+        opacity: 0.6;
+    }
+    .sec-bg-logo-r img {
+        width: 59px;
+    }
+    .sec-bg-logo-r {
+        position: absolute;
+        top: 241%;
+        right: 0;
+        opacity: 0.6;
+    }
+    section.product-show {
+        text-align: center;
+    }
+    /* Hero Section */
+    .circle-radient {
+        position: relative;
+        right: 38px;
+    }
+    .lines-oranges {
+        position: relative;
+        top: -650px;
+        right: -202px;
+    }
+    .chart-cake {
+        position: relative;
+        top: -600px;
+        right: -236px;
+    }
+    img.pattern-dot {
+        position: relative;
+        top: -621px;
+        left: -119px;
+        width: 14%;
+        rotate: -45deg;
+    }
+    .about-cloud {
+        position: relative;
+        /* top: -450px; */
+        animation: right-to-left 14.5s linear infinite;
+        /* left: 460px; */
+    }
+    .objeto-inteligente-vectorial {
+        position: relative;
+        top: -295px;
+        left: 148px;
+        z-index: -100;
+        min-height: max-content;
+        overflow: hidden;
+        animation: banner-svg-rotate 12s linear infinite;
+        animation-fill-mode: forwards;
+    }
+    .arrow-14 {
+        position: relative;
+        top: -728px;
+        left: 298px;
+    }
+    .video-content {
+        margin-top: 7%;
+        padding-left: 27px;
+    }
+    .hero-button {
+        /* padding-left: 25px; */
+        width: 60%;
+        margin: 0px auto;
+        margin-top: -67px;
+    }
+    .line-20 {
+        height: 6px;
+        top: -102px;
+        position: relative;
+        width: 161px;
+        background-color: #1fb8ea;
+    }
+    .extra-icon-2 {
+        position: relative;
+        top: -738px;
+        left: -181px;
+        animation: banner-svg-rotate 20s linear infinite;
+    }
+    .line-patran {
+        position: relative;
+        top: -137px;
+        left: 116px;
+        animation: banner-svg-rotate 10s linear infinite reverse;
+    }
+    .rating-info {
+        width: 80%;
+        margin: 0px auto;
+    }
+    .hero-text h1 {
+        font-size: 50px;
+        line-height: 1.0em;
+    }
+    .hero-left {
+        margin-top: 70px;
+    }
+    .hero-aria {
+        overflow: hidden !important;
+    }
+}

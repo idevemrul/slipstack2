@@ -1,0 +1,213 @@
+ /* 
++++++++++++++++++++++++++++++++++++++
+------------ # Responsive -----------
++++++++++++++++++++++++++++++++++++++ 
+*/
+ 
+ @media screen and (max-width: 1399px) {}
+ 
+ @media screen and (max-width: 1199px) {
+     body {
+         font-size: 14px;
+     }
+     #headTitle {
+         margin-top: 5vw;
+     }
+     .container,
+     .container-sm {
+         max-width: 90%;
+     }
+     .about-text {
+         padding: 80px 0;
+     }
+     .about-text h1 {
+         margin-bottom: 50px;
+     }
+     #headTitle p {
+         font-size: .9rem;
+     }
+     .video {
+         height: 45vw;
+         margin: 7vw 0vw;
+     }
+     .partner-text h6 {
+         letter-spacing: 0.1em;
+         font-size: 1.5vw;
+     }
+     .book-demo {
+         padding: 12px 18px;
+         width: 188px;
+     }
+     #work h3 {
+         font-size: 3vw;
+         font-weight: 600;
+         line-height: 3.8vw;
+         margin: 20 0;
+     }
+     #work h4 {
+         font-size: 1rem;
+     }
+     .t-aproach ul li {
+         font-size: .9rem;
+     }
+     h3 {
+         font-size: 1.8rem;
+         line-height: 1;
+     }
+     .team-text h6 {
+         font-size: 1rem;
+     }
+     .item h6 {
+         font-size: .9rem;
+     }
+     .love-text {
+         font-size: 2.5vw;
+         line-height: 28px;
+     }
+     .love-item-container {
+         margin: 1rem;
+     }
+     .love-container .owl-carousel .owl-item {
+         padding: 3vw 1vw 2vw 2vw;
+     }
+     .schedule {
+         min-height: 539px;
+         padding: 68px 36px 58px 79px;
+     }
+     .love-add {
+         margin-top: 30px;
+     }
+     .about-text {
+         padding: 25px 0;
+     }
+     .contact-page-form input[type="text"],
+     .contact-page-form input[type="email"] {
+         height: 37px;
+     }
+     .schedule-btn {
+         padding: 1.5vw 3vw;
+     }
+     .email input {
+         min-height: 6vw;
+     }
+     .book-demo {
+         padding: 1.5vw 3vw;
+     }
+     .new-text-p {
+         font-size: 2vw;
+     }
+     #work .video {
+         margin: 7vw 5vw;
+     }
+     .love-item {
+         padding: 3vw vw;
+     }
+     .t-aproach ul li {
+         font-size: .8rem;
+         margin-bottom: 1vw !important;
+         line-height: 1.7;
+     }
+     .about-note {
+         position: relative;
+         margin-top: 15px;
+         font-size: 0.8rem;
+     }
+ }
+ 
+ @media screen and (max-width: 991px) {
+     body {
+         font-size: 12px;
+     }
+     #work h4 {
+         font-size: 1.7vw;
+     }
+     .input-fields-container {
+         gap: 5px;
+     }
+ }
+ 
+ @media screen and (max-width: 767px) {
+     body {
+         font-size: 10px !important;
+     }
+     .video {
+         margin: 12vw 0vw;
+     }
+     #work .work-text {
+         padding-left: 5vw;
+         margin-top: 10vw;
+         margin-bottom: 10vw;
+     }
+     .button-box {
+         text-align: center;
+     }
+     .owl-item .team-list img {
+         height: 150px;
+         padding: 0 1vw;
+     }
+     .e-sigma {
+         margin-top: 8vw;
+     }
+     .fot-c1,
+     .fot-c2,
+     .fot-c3 {
+         text-align: center;
+         margin-bottom: 4vw;
+     }
+     f-team-icon d-flex justify-content-start {
+         text-align: center;
+         width: 100%;
+     }
+     .f-team-icon,
+     .foot-social-icon {
+         display: block !important;
+     }
+     .f-team-icon,
+     .foot-quote {
+         text-align: center;
+     }
+     .footer #logo-foot {
+         width: 20vw;
+         height: 6vw;
+         margin-bottom: 2vw;
+     }
+ }
+ 
+ @media screen and (max-width: 575px) {
+     .owl-item .team-list img {
+         height: 150px;
+         width: 100%;
+         padding: 0 4vw;
+     }
+     .me-3 {
+         margin-right: 0!important;
+     }
+     .me-3 img {
+         width: 70%;
+     }
+     .nav-pills .nav-link {
+         height: 60px;
+         margin: 1rem 1rem 1rem 1rem;
+         width: 120px;
+         color: #afafaf;
+     }
+     .love-magent .love-magnet-img {
+         left: 41%;
+         height: 50px;
+     }
+     .nav-pills .nav-link {
+         height: 55px;
+         margin: 0rem 1rem 1rem 0rem;
+         width: 115px;
+         color: #afafaf;
+     }
+     .love-container .comments {
+         line-height: 1.5;
+         font-size: .8rem;
+     }
+     .footer #logo-foot {
+         width: 30vw;
+         height: 7vw;
+         margin-bottom: 2vw;
+     }
+ }
